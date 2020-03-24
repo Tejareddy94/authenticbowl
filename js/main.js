@@ -51,6 +51,8 @@
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
     smartSpeed: 1000,
+    mouseDrag : false,
+    touchDrag : true,
     nav:true,
     autoplayHoverPause: true,
     items: 1,
