@@ -151,7 +151,7 @@
         nav:false
       },
       1000:{
-        items:4,
+        items:3,
         nav:true,
         loop:false
       }
@@ -160,11 +160,18 @@
 
 
   $('.centernonloop').owlCarousel({
-    center: true,
-    items: 1,
-    loop: false,
-    margin: 30,
+    loop:true,
+    autoplay: true,
+    margin:0,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
     smartSpeed: 1000,
+    nav:true,
+    // center: true,
+    items: 1,
+    // loop: true,
+    margin: 30,
+    // smartSpeed: 1000,
     dots: true,
     responsive:{
       600:{

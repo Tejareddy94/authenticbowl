@@ -1,0 +1,14 @@
+{
+  "name": "authenti-food",
+  "version": "1.0.0",
+  "description": "website for authentic food",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass scss/style.scss css/style.css"
+  },
+  "author": "Teja",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
